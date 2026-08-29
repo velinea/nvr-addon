@@ -21,7 +21,7 @@ NVR (RTMP)  ──▶  connect.py  ──▶  go2rtc  ──▶  Home Assistant
 2. Click the three-dot menu (top right) → **Repositories**
 3. Add this repository URL:
    ```
-   https://github.com/velinea/nvr-addons
+https://github.com/velinea/nvr-addon
    ```
 4. Click **Save**, then find **NVR Stream** and click **Install**
 5. Open the add-on **Configuration** tab and set your NVR details
@@ -232,5 +232,5 @@ streams:
 
 ### Adding the repository fails
 
-- Make sure you're using the full URL: `https://github.com/velinea/nvr-addons`
+- Make sure you're using the full URL: `https://github.com/velinea/nvr-addon`
 - The repository must be added before the add-on appears in the store
