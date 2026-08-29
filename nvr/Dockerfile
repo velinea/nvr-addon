@@ -15,6 +15,7 @@ RUN PKG=$(python3 -c "import librtmp, os; print(os.path.dirname(librtmp.__file__
     patch -d "$PKG" -p1 < /tmp/patches/librtmp_result_handler.patch
 
 COPY connect.py /app/connect.py
+COPY watchdog.py /app/watchdog.py
 
 RUN ARCH=$(uname -m) && \
     if [ "$ARCH" = "x86_64" ]; then ARCH="amd64"; fi && \
